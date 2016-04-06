@@ -4,7 +4,11 @@
   "description": "TimeStamp Microservice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/timestamp-microse"
   },
   "keywords": [
     "Free",
@@ -12,5 +16,8 @@
     "Camp"
   ],
   "author": "Roman Lorent",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
